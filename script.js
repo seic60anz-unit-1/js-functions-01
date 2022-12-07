@@ -15,17 +15,26 @@
 // console.log(`You have this many square metres of land: ${(howMuchLand(30, 20))}`)
 
 // Which Number is Bigger? 
-const greaterNum = function (num1, num2) {
-    // const numbers = (5, 10)
-    if (num1 > num2) {
-        console.log(`The greater number between ${num1} and ${num2} is ${num1}.`)
-    } else if (num2 > num1) { 
-        console.log(`The greater number between ${num1} and ${num2} is ${num2}.`)
-    } else {
-        console.log("")
-    }
-    // return numbers
+// const greaterNum = function (num1, num2) {
+//     // const numbers = (5, 10)
+//     if (num1 > num2) {
+//         console.log(`The greater number between ${num1} and ${num2} is ${num1}.`)
+//     } else if (num2 > num1) { 
+//         console.log(`The greater number between ${num1} and ${num2} is ${num2}.`)
+//     } else {
+//         console.log("")
+//     }
+//     // return numbers
 
+// }
+// greaterNum(5, 10)
+// greaterNum(7, 9)
+
+// Grade Assigner 
+const assignGrade = function (score) {
+    const grade = ""
+    return grade
 }
-greaterNum(5, 10)
-greaterNum(7, 9)
+assignGrade(83)
+assignGrade(68)
+assignGrade(52)
