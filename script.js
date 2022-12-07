@@ -1,10 +1,10 @@
 // The Introduction 
-const greetings = function (name) {
-    console.log(`Nice to meet you ${name}!`)
-} 
+// const greetings = function (name) {
+//     console.log(`Nice to meet you ${name}!`)
+// } 
 
-greetings("Skitter")
-greetings("Tattletale")
+// greetings("Skitter")
+// greetings("Tattletale")
 
 // How Much Land 
 const howMuchLand = function (length, width) {
@@ -12,4 +12,4 @@ const howMuchLand = function (length, width) {
     return area 
 }
 
-console.log()
+console.log(`You have this many square metres of land: ${(howMuchLand(30, 20))}`)
