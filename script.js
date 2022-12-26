@@ -32,9 +32,18 @@
 
 // Grade Assigner 
 const assignGrade = function (score) {
-    const grade = ""
-    return grade
+    if (score >= 80) {
+        return("A") 
+    } else if (score >= 70) {
+        return("B")
+    } else if (score >= 60) {
+        return("C")
+    } else if (score >= 50) {
+        return("D")
+    } else {
+        return("F")
+    }
 }
-assignGrade(83)
-assignGrade(68)
-assignGrade(52)
+console.log(assignGrade(83))
+console.log(assignGrade(68))
+console.log(assignGrade(52))
